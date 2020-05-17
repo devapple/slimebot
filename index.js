@@ -2,7 +2,7 @@
 // Start up :P
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = "NzExMzY3ODU1MzE2MTQwMTM3.XsB_Sw.0n7HNT1KwEs7nLH-J0QrC-AFHQ0";
+const token = process.env.token;
 const prefix = '!';
 var version = 1.0;
 
