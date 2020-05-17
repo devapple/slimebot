@@ -10,6 +10,7 @@ bot.login(token);
 
 bot.on('ready', () => {
     console.log('Bot active!');
+    bot.user.setActivity('SlimeBot v1.0');
 });
 
 
